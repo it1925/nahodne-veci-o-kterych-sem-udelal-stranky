@@ -1,0 +1,171 @@
+
+.box{
+  width: 400px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #191919;
+  text-align: center;
+  clear: both;
+}
+
+.box h1{
+  font-family: sans-serif;
+    color: white;
+    text-transform: uppercase;
+}
+
+.box input[type = "text"],.box input[type = "password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+width: 280px;
+border-color: #2ecc71;
+}
+
+.box input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box input[type = "submit"]:hover{
+    background: #2ecc71;
+}
+
+.my-box{
+  margin: 0;
+  top: 0px;
+  width: 200px;
+  padding: 40px;
+  background: #191919;
+  text-align: center;
+  clear: both;
+}
+
+.my-box button[type = "button"]{
+  border: 0;
+  display: block;
+  margin: 40px auto;
+  text-align: center;
+  padding: 6px 5px;
+  
+}
+
+.my-container{
+  background-color: #3508ff15;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.menu{
+  width: 100%;
+  background-color: black;
+  margin: 0;
+  overflow: hidden;
+}
+
+.menu a{
+  font: menu;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  font-size: 18px;
+  box-sizing: border-box;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px 24px;
+}
+
+.menu a:hover{
+  transition-delay: 28ms;
+  background-color: #ff9f1c;
+  color: black;
+}
+
+.content-header{
+  background-image: url(https://wallpaperplay.com/walls/full/9/0/d/385776.jpg);
+  margin: 100px 0;
+  text-align: center;
+}
+
+.my-container p {
+text-align: justify;
+padding: 12px;
+}
+
+
+.navbar-brand h2{
+  font-weight: bold;
+}
+ a, h1 {
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #00ff55;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 24px;
+  overflow: hidden;
+  transition: 0.2s;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ a:hover{
+  text-decoration: none;
+  color: #183d29;
+  background: #21f360;
+  box-shadow: 0 0 10px #21f360, 0 0 40px #21f360, 0 0 80px #21f360;
+  transition-delay: 0.4s;
+}
+p{
+  font-size: 25px;
+}
+.nadpis{
+  color: #191919;
+  font-weight: bold;
+}
+ol {
+  font-size: 25px;
+}
+#piechart{
+  width: 600px;
+  height: 500px;
+}
+.a {
+  color: #000000;
+  background-color:  rgba(255, 255, 255, 0.76);
+  }
+@media (max-width: 640px){
+  .piechart{
+    width: 500px;
+    height: 100px;
+  } 
+}
